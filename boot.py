@@ -13,8 +13,8 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-ssid = 'Galaxy'
-password = 'galaxys8'
+ssid = 'your ssid'
+password = 'your password'
 
 station = network.WLAN(network.STA_IF)
 
